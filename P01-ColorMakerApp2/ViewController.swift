@@ -27,7 +27,7 @@ class ViewController: UIViewController {
         self.colorView.backgroundColor = UIColor(red: CGFloat(self.red), green: CGFloat(self.green), blue: CGFloat(self.blue), alpha: 1)
     }
     @IBAction func blueChanged(_ sender: UISlider) {
-        green = sender.value
+        blue = sender.value
         self.colorView.backgroundColor = UIColor(red: CGFloat(self.red), green: CGFloat(self.green), blue: CGFloat(self.blue), alpha: 1)
     }
 }
